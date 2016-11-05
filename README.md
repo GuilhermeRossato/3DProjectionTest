@@ -28,8 +28,13 @@ If you see one of my experiments and it does not contain the application of bezi
 What are Bezier Functions
 -----------------------
 
+<<<<<<< HEAD
 	`b(i, j, t) = i + (j - i) * t;        // Bezier Function`
 	`ib(i, j, t) = (t - i) / (j - i);     // Inverse Bezier Function`
+=======
+		b(i, j, t) = i + (j - i) * t;        // Bezier Function
+		ib(i, j, t) = (t - i) / (j - i);     // Inverse Bezier Function
+>>>>>>> origin/master
 
 Useful pair of functions that can be used EVERYWHERE.
 
