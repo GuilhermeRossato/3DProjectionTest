@@ -28,8 +28,8 @@ If you see one of my experiments and it does not contain the application of bezi
 What are Bezier Functions
 -----------------------
 
-		b(i, j, t) = i + (j - i) * t;  // Bezier Function
-		ib(i, j, t) = (t - i) / (j - i);     // Inverse Bezier Function
+	`b(i, j, t) = i + (j - i) * t;        // Bezier Function`
+	`ib(i, j, t) = (t - i) / (j - i);     // Inverse Bezier Function`
 
 Useful pair of functions that can be used EVERYWHERE.
 
@@ -39,7 +39,7 @@ Useful pair of functions that can be used EVERYWHERE.
  * STABLEST recursive interpolation algorithm (Casteljau's)
  * They are simple af, one describe a linear path, the other describes a de-linearization of a linear path.
 
-B is a function that depend on a t-value in the interval [0..1] (t is usually time, but could be anything), the inverse bezier function is a value that generates this t-value, given a position inbetween two numbers.
+B is a function that depend on a t-value in the interval `[0..1]` (t is usually time, but could be anything), the inverse bezier function is a value that generates this t-value, given a position inbetween two numbers.
 
 All hail Bezier. (it wasn't necessarily him who developed all uses for it, nor the only one who created the functions, be we just had to name someone to take the credit, that lazy Casteljau guy gets too much love already)
 
