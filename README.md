@@ -3,7 +3,17 @@
 
 Drawing 3D projections are one of my hobbies, so I created this small experiment that draws a simple box (that invariably moves around)
 
-[Click here to see the experiment](https://cdn.rawgit.com/GuilhermeRossato/3DProjectionTest/master/index.html)
+![Previews for the experiment](https://cdn.rawgit.com/GuilhermeRossato/3DProjectionTest/master/preview.png)
+
+[Click here to run](https://cdn.rawgit.com/GuilhermeRossato/3DProjectionTest/master/index.html)
+
+Dependencies
+-----------------------
+This project is too simple to have any dependency, all code inside was created by me.
+
+This was created using HTML, Javascript, a bit of CSS and a lot of the Canvas Element (HTML5).
+
+No libraries were ~~harmed~~ used to develop this tiny app.
 
 Why does it moves
 -----------------------
@@ -28,14 +38,9 @@ Useful pair of functions that can be used EVERYWHERE.
  * STABLEST recursive interpolation algorithm (Casteljau's)
  * They are simple af, one describe a linear path, the other describes a de-linearization of a linear path.
 
-Consider I and J as constants, B is a function that depend on a t-value in the interval [0..1] (t is usually time, but could be anything), the inverse bezier function is a value that generates this t-value, given a position inbetween two numbers.
+B is a function that depend on a t-value in the interval [0..1] (t is usually time, but could be anything), the inverse bezier function is a value that generates this t-value, given a position inbetween two numbers.
 
 All hail Bezier. (it wasn't necessarily him who developed all uses for it, nor the only one who created the functions, be we just had to name someone to take the credit, that lazy Casteljau guy gets too much love already)
   
-Dependencies
------------------------
-This project is too simple to have any dependency, all code was created manually.
 
-No libraries were ~harmed~ used to develop this tiny application
-
-I release this under the [MIT License](https://github.com/reinteractive-open/default_readme/blob/master/MIT-LICENSE.txt).
+I release this under the [MIT License](https://opensource.org/licenses/MIT).
