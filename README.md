@@ -3,7 +3,7 @@
 
 Drawing 3D projections are one of my hobbies, so I created this small experiment that draws a simple box (that invariably moves around)
 
-![Previews for the experiment](https://cdn.rawgit.com/GuilhermeRossato/3DProjectionTest/master/preview.png)
+![Previews for the experiment](https://cdn.rawgit.com/GuilhermeRossato/3DProjectionTest/master/previewSquare.png)
 
 [Click here to run](https://cdn.rawgit.com/GuilhermeRossato/3DProjectionTest/master/index.html)
 
